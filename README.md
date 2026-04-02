@@ -7,11 +7,11 @@
 
 ## 🎥 প্রিয় ভিডিও
 [এখানে ক্লিক করে ভিডিওটি দেখুন](https://www.youtube.com)
-[click](
 
-https://github.com/user-attachments/assets/b30f041a-8746-444f-9be8-ae96efc3a86c
 
-)
+আইটা https://github.com/user-attachments/assets/b30f041a-8746-444f-9be8-ae96efc3a86c
+
+
 
 ## 💻 সি++ কোড
 ```cpp
