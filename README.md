@@ -1,18 +1,18 @@
-১. নিজের তথ্য প্রিন্ট করা (Personal Info)
-কাজ: তিনটা variable তৈরি করো যেখানে তোমার বয়স (int), উচ্চতা (float), এবং তোমার নামের প্রথম অক্ষর (char) সেভ করা থাকবে।
-
-লক্ষ্য: printf ব্যবহার করে সবগুলো তথ্য আলাদা আলাদা লাইনে আউটপুট দেখাও।
-
-২. গণিতের জাদুকর (Basic Math)
-কাজ: দুইটা সংখ্যা নাও, যেমন: a = 20 এবং b = 10।
-
-লক্ষ্য: এই সংখ্যা দুইটাকে যোগ (+), বিয়োগ (-), গুণ (*), এবং ভাগ (/) করে সেগুলোর ফলাফল প্রিন্ট করো।
-
-হিন্ট: printf("Sum: %d\n", a + b);
-
-৩. দশমিকের কারসাজি (Float Precision)
-কাজ: একটা float variable-এ 5.7584 সংখ্যাটি রাখো।
-
-লক্ষ্য: আউটপুটে দশমিকের পর মাত্র দুই ঘর দেখাবে (যেমন: 5.76)।
-
-# হিন্ট: প্রিন্ট করার সময় %f-এর বদলে %.2f ব্যবহার করে দেখো কী হয়।
+#example of scanf and printf
+```c
+int main() {
+    int age;
+    float height;
+    float waight;
+    printf("Enter your age: ");
+    scanf("%d", &age);
+    printf("Enter your height: ");
+    scanf("%f", &height);
+    printf("Enter your waight: ");
+    scanf("%f", &waight);
+    printf("You are %d years old.\n", age);
+    printf("Your height is =%f\n", height);
+    printf("Your weight is.%f\n", waight);
+    return 0;
+}
+```
