@@ -1,18 +1,20 @@
-#example of scanf and printf
-```c
-int main() {
-    int age;
-    float height;
-    float waight;
-    printf("Enter your age: ");
-    scanf("%d", &age);
-    printf("Enter your height: ");
-    scanf("%f", &height);
-    printf("Enter your waight: ");
-    scanf("%f", &waight);
-    printf("You are %d years old.\n", age);
-    printf("Your height is =%f\n", height);
-    printf("Your weight is.%f\n", waight);
-    return 0;
-}
-```
+# এই একটা  link এই প্রতিদিন এর update note পেয়ে যাবে সবাই।
+## প্রথম ক্লাসঃ <br>
+**পরিচিতিঃ** <br>
+int = Integer ,পুর্ন সংখ্যা। <br>
+float = Floating Point Number, দশমিক সংখ্যা। <br>
+char = character, অক্ষর বুঝাতে। <br>
+double = double ,  দশমিক সংখ্যা কিন্তু বৈজ্ঞানিক হিসাব এ  ব্যাবহার করা হয়। <br>
+bool = boolian, সত্য/মিথ্যা যাচাই। <br>
+**ব্যাবহার বিধিঃ** <br>
+int = মান দেখানোর জন্য = %d <br>
+float = মান দেখানোর জন্য = %f <br>
+char = মান দেখানোর জন্য = %c <br>
+double = মান দেখানোর জন্য = %lf <br>
+bool = মান দেখানোর জন্য = %d   (*bool এ %d দেয়ার কারন এর output (0,1) আসে যেটা পুর্নসংখ্যা অর্থাৎ (int))* <br>
+
+**মনে রাখবেঃ** <br>
+নতুন লাইন নেওয়ার সময়( \n )-> ডাবল কটেশন("_") এর ভিতরে রাখতে হবে। <br>
+প্রতিটি লাইন/স্ট্রিং এর শেষ এ( ; )সেমি ক্লোন ব্যাবহার করবে। <br>
+*উদাহরনঃ* <br>
+**printf("coding \n");** <br>
