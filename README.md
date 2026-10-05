@@ -20,7 +20,7 @@ def Ratul():
     if not name or not phone:
         messagebox.showerror("দয়া করে অন্তত নাম এবং মোবাইল নম্বর লিখুন!")
     else:
-        messagebox.showinfo(f"ধন্যবাদ {name}! ")
+        messagebox.showinfo(f"ধন্যবাদ {name} ")
 
 # উইন্ডো তৈরি
 root = tk.Tk()
